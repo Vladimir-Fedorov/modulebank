@@ -13,24 +13,49 @@
   <header class="header">
     <div class="container">
       <div class="header-wrapper">
-        <a class="header__logo" href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
-        <div class="header-search">
-          <img src="img/search.svg" alt="Поиск" class="header-search__icon">
-          <a href="#" class="header-search__text">Поиск</a>
+        <div class="header-left">
+          <a class="header__logo" href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+          <div class="header-search">
+            <img src="img/search.svg" alt="Поиск" class="header-search__icon">
+            <a href="#" class="header-search__text">Поиск</a>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-menu">
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link navbar-menu__link_active">Деньги</a>
+              </li>
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Контакты</a>
+              </li>
+              <li class="navbar-menu__item">
+                <a href="#" class="navbar-menu__link">Услуги
+                  <img src="img/arrow.svg" alt="Выпадающее меню" class="navbar-menu__arrow arrow">
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="navbar">
-          <ul class="navbar-menu">
-            <li class="navbar-menu__item">
-              <a href="#" class="navbar-menu__link navbar-menu__link_active">Деньги</a>
-            </li>
-            <li class="navbar-menu__item">
-              <a href="#" class="navbar-menu__link">Контакты</a>
-            </li>
-            <li class="navbar-menu__item">
-              <a href="#" class="navbar-menu__link">Услуги<img src="img/arrow.svg" alt="Выпадающее меню" class="navbar-menu__arrow"></a>
-            </li>
-          </ul>
-        </nav>
+        <!-- /.header-left -->
+        <div class="header-center">
+          <a href="#" class="header-center__link">
+            <img src="img/new.png" alt="Новый платеж" class="header-center__img">
+          </a>
+        </div>
+        <!-- /.header-center -->
+        <div class="header-right">
+          <a href="#" class="header-bell__link">
+            <img src="img/icon_bell.png" alt="Уведомления" class="header-bell__icon">
+          </a>
+          <div class="header-profile">
+            <a href="#" class="header-profile__link">
+              <img src="img/home.png" alt="Иконка профиля" class="header-profile__icon">
+              <span class="header-profile__text">ООО «РОДНЫЕ ПРОСТОРЫ»</span>
+              <img src="img/arrow.svg" alt="Выпадающее меню" class="header-profile__arrow arrow">
+            </a>
+          </div>
+          <!-- /.header-profile -->
+        </div>
+        <!-- /.header-right -->
       </div>
       <!-- /.header-wrapper -->
     </div>
