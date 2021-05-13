@@ -112,6 +112,11 @@ img {
           align-items: center;
 }
 
+.header-right__bell {
+  margin-right: 41px;
+  width: 25px;
+}
+
 .header-right__profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,10 +124,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.header-bell__link {
-  margin-right: 41px;
 }
 
 .header-profile__link {
