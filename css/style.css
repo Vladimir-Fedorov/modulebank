@@ -242,7 +242,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px 26px;
+  padding: 15px 23px;
   background: #FFFFFF;
   -webkit-box-shadow: -8px 9px 25px rgba(49, 68, 93, 0.23112);
           box-shadow: -8px 9px 25px rgba(49, 68, 93, 0.23112);
@@ -327,7 +327,7 @@ img {
 .main-body__card {
   width: 545px;
   margin: auto;
-  padding-top: 25px;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,9 +349,9 @@ img {
 .main-body__card::before {
   content: "";
   position: absolute;
-  top: 0%;
-  right: 0%;
-  border-bottom: 26px solid #fff;
+  top: 9px;
+  right: 0px;
+  border-bottom: 30px solid #fff;
   border-right: 30px solid transparent;
   opacity: 0.85;
   -webkit-box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
@@ -359,7 +359,7 @@ img {
 }
 
 .main-body__card-info {
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .main-body__card-title {
@@ -373,6 +373,7 @@ img {
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
+  margin: 10px 0;
 }
 
 .main-body__card-advantages {
@@ -388,7 +389,7 @@ img {
 }
 
 .main-body__card-item {
-  padding-bottom: 10px;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,21 +401,20 @@ img {
 .main-body__card-link {
   display: inline-block;
   text-align: center;
-  max-width: 120px;
+  max-width: 80px;
   font-weight: 300;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 8px;
+  line-height: 10px;
   margin-right: 10px;
 }
 
 .main-body__card-indicators {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 43px;
 }
 
 .main-body__card-footer {
-  padding: 22px 27px;
+  padding: 29px 48px 28px 37px;
   margin: 0;
   background: #F2F2F2;
   mix-blend-mode: normal;
@@ -425,7 +425,7 @@ img {
 .main-body__subtitle {
   max-width: 545px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 19px;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
@@ -433,6 +433,14 @@ img {
 }
 
 .main-body__footer {
+  padding: 15px 0;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.0869282), 0px 0px 1px rgba(0, 0, 0, 0.239102);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.0869282), 0px 0px 1px rgba(0, 0, 0, 0.239102);
+}
+
+.main-body__footer-wrapper {
+  max-width: 545px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,8 +450,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 545px;
-  margin: 21px auto;
+  margin: auto;
 }
 
 .main-body__footer-item {
