@@ -1,14 +1,18 @@
 .main
+  display: flex
+  flex-direction: column
   &-wrapper
     max-width:
     display: flex
-    justify-content: flex-end
+    flex-direction: column
+    align-items: flex-end
   &-header
     display: flex
     align-items: center
     padding: 15px 26px
     background: #FFFFFF
     box-shadow: -8px 9px 25px rgba(49, 68, 93, 0.23112)
+    width: 900px
     &__close
       margin-right: 21px
     &__title
@@ -17,3 +21,63 @@
       font-weight: 300
       font-size: 24px
       line-height: 28px
+  &-body
+    width: 900px
+    padding-top: 26px
+    background: #FFFFFF
+    box-shadow: -8px 9px 25px rgba(49, 68, 93, 0.23112)
+    &__summ
+      margin: auto
+      display: flex
+      align-items: center
+      justify-content: center
+      flex-direction: column
+      &-price
+        font-weight: 300
+        font-size: 46px
+        line-height: 54px
+        color: #CF4545
+      &-subtitle
+        font-weight: 300
+        font-size: 16px
+        line-height: 22px
+        &_light
+          color: #828A96
+    &__status
+      display: flex
+      justify-content: center
+      padding: 10px 0 16px
+      &-text
+        margin: auto
+        padding: 3px 10px
+        font-weight: 500
+        font-size: 11px
+        line-height: 13px
+        color: #fff
+        background: #81C624
+        border-radius: 125px
+    &__card
+      width: 545px
+      margin: auto
+      padding: 25px 30px
+      display: flex
+      align-items: flex-start
+      justify-content: space-between
+      background: #FFFFFF
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.0869282), 0px 0px 1px rgba(0, 0, 0, 0.390682)
+      &-title
+        font-weight: normal
+        font-size: 20px
+        line-height: 23px
+      &-text
+        font-weight: 300
+        font-size: 16px
+        line-height: 28px
+      &-advantages
+        display: flex
+        flex-direction: column
+        max-width: 165px
+      &-indicators
+        width: 50px
+        height: 50px
+        border-radius: 50%
