@@ -481,4 +481,13 @@ img {
 .main-body__footer-icon {
   margin-right: 10px;
 }
+
+@media (max-width: 1300px) {
+  .container {
+    width: 1000px;
+  }
+  .header-center {
+    left: 60%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
